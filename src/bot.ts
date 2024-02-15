@@ -1,6 +1,7 @@
 import Mineflayer from 'mineflayer';
 import { sleep, getRandom } from "./utils.ts";
 import CONFIG from "../config.json" assert {type: 'json'};
+const keep_alive = require('./keep_alive.js')
 
 let loop: NodeJS.Timer;
 let bot: Mineflayer.Bot;
