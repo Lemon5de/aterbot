@@ -9,7 +9,7 @@
 	"logLevel": ["error", "log", "debug"],
 	"action": {
 		"commands": ["forward", "back", "left", "right", "jump"],
-		"holdDuration": 5000,
-		"retryDelay": 15000
+		"holdDuration": 2000,
+		"retryDelay": 7000
 	}
 }
